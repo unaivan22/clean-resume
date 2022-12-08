@@ -17,7 +17,7 @@ export default function Education() {
   return (
     <div>
       <div className='grid grid-cols-6'>
-        <h1>Education</h1>
+        <h1 className='font-bold'>Education</h1>
         <div className='col-span-5'>
           <div className='grid grid-cols-3 mb-12 gap-x-8 gap-y-12'>
             {item?.map((currentItem, index) => {

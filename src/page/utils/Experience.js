@@ -17,7 +17,7 @@ export default function Experience() {
   return (
     <div>
       <div className='grid grid-cols-6'>
-        <h1>Experience</h1>
+        <h1 className='font-bold'>Experience</h1>
         <div className='col-span-5'>
           <div className='grid grid-cols-1 mb-12 gap-x-8 gap-y-12'>
             {item?.map((currentItem, index) => {
