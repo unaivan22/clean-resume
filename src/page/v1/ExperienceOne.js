@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from "react"
 import { TiDelete } from 'react-icons/ti';
 
-export default function Experience() {
+export default function ExperienceOne() {
   const [item, setItem] = useState(['div'])
   function addNewRow(){
     const current = [...item];
@@ -38,7 +38,7 @@ export default function Experience() {
               )
             } )}
           </div>
-          <button onClick={() => addNewRow()} className="bg-zinc-800 hover:bg-zinc-900 text-white font-base py-2 px-4 rounded-xl offPrint">Add Experience</button>
+          <button onClick={() => addNewRow()} className="bg-zinc-800 hover:bg-zinc-900 text-white font-normal text-sm py-2 px-4 rounded-xl offPrint">Add Experience</button>
         </div>
       </div>
     </div>

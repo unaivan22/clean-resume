@@ -7,6 +7,9 @@
     border: 1px solid white !important;
 } */
 
+body {
+    background-color: rgb(245, 245, 245);
+}
 
 @media print {
     .offPrint {
