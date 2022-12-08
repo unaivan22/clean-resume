@@ -6,8 +6,8 @@ import Skill from './utils/Skill'
 
 export default function Home() {
   return (
-    <div>
-      <div className='space-y-12'>
+    <div className='mx-auto p-32 bg-zinc-200'>
+      <div className='space-y-24 bg-white py-24 px-12'>
         <Head />
         <Experience />
         <Education />
