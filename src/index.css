@@ -9,7 +9,7 @@
 
 
 @media print {
-    .offPrint, title, {
-      display:none;
-    }
-  }
+    .offPrint {
+     display:none;
+   }
+}

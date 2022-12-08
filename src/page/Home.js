@@ -9,7 +9,7 @@ import FloatBtn from './utils/FloatBtn'
 export default function Home() {
   return (
     <div className='mx-auto padding-10mm bg-zinc-200'>
-      <div id='printablediv' className='paper space-y-12 bg-white padding-10mm'>
+      <div id='printablediv' className='paper space-y-4 bg-white padding-10mm'>
         <Head />
         <Experience />
         <Education />

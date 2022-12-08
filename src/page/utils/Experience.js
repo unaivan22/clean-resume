@@ -16,22 +16,22 @@ export default function Experience() {
   }
   return (
     <div>
-      <div className='grid grid-cols-6'>
+      <div className='grid grid-cols-6 mt-6'>
         <h1 className='font-bold'>Experience</h1>
         <div className='col-span-5'>
-          <div className='grid grid-cols-1 mb-12 gap-x-8 gap-y-12'>
+          <div className='grid grid-cols-1 mb-4 gap-x-8 gap-y-6'>
             {item?.map((currentItem, index) => {
               return (
                 <div key={currentItem} id={`expense-${index}`}>
                   <div>
                     <TiDelete onClick={() => removeRow()} fontSize="1.5em" className='float-right text-zinc-600 hover:text-rose-600 offPrint' />
-                    <div className='flex gap-x-4 items-center'>
-                      <h1 className='font-bold text-md' contentEditable="true">Company  </h1> <span className='text-zinc-300'>|</span> <span contentEditable="true" className='text-sm font-sm text-zinc-500'>Role</span> <span className='text-zinc-300'>|</span><span contentEditable="true" className='text-sm font-sm text-zinc-500'>Start - End </span><span className='text-zinc-300'>|</span><span contentEditable="true" className='text-sm font-sm text-zinc-500'>Employee Type</span>
+                    <div className='flex gap-x-2 items-center'>
+                      <h1 className='font-bold text-md' contentEditable="true">Company</h1> <span className='text-zinc-300'>|</span> <span contentEditable="true" className='text-sm font-sm text-zinc-500'>Role</span> <span className='text-zinc-300'>|</span><span contentEditable="true" className='text-sm font-sm text-zinc-500'>Start - End </span><span className='text-zinc-300'>|</span><span contentEditable="true" className='text-sm font-sm text-zinc-500'>Employee Type</span>
                     </div>
                     <div className='flex mt-2 gap-x-6'>
                       <p className='text-zinc-500 font-light text-sm' contentEditable="true">Summary of your achievement on the job or your responsibilities</p>
-                      <p className='text-zinc-500 font-light text-sm' contentEditable="true">Another summary of your achievement on the job or your responsibilities</p>
-                      <p className='text-zinc-500 font-light text-sm' contentEditable="true">One more summary of your achievement on the job or your responsibilities</p>
+                      {/* <p className='text-zinc-500 font-light text-sm' contentEditable="true">Another summary of your achievement on the job or your responsibilities</p>
+                      <p className='text-zinc-500 font-light text-sm' contentEditable="true">One more summary of your achievement on the job or your responsibilities</p> */}
                     </div>
                   </div>
                 </div>

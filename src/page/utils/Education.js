@@ -19,13 +19,13 @@ export default function Education() {
       <div className='grid grid-cols-6'>
         <h1 className='font-bold'>Education</h1>
         <div className='col-span-5'>
-          <div className='grid grid-cols-2 mb-12 gap-x-8 gap-y-12'>
+          <div className='grid grid-cols-2 mb-4 gap-x-8 gap-y-6'>
             {item?.map((currentItem, index) => {
               return (
                 <div key={currentItem} id={`expense-${index}`}>
                   <div>
                     <TiDelete onClick={() => removeRow()} fontSize="1.5em" className='float-right text-zinc-600 hover:text-rose-600 offPrint' />
-                    <div className='flex gap-x-4 items-center'>
+                    <div className='flex gap-x-2 items-center'>
                       <h1 className='font-bold text-md' contentEditable="true">Scholl Name  </h1> <span contentEditable="true" className='text-sm font-sm text-zinc-500'>Start - End date</span>
                     </div>
                     <p className='text-zinc-500 font-light text-sm' contentEditable="true">Degree type & Major</p>

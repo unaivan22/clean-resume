@@ -3,7 +3,7 @@ import React from 'react'
 export default function Head() {
   return (
     <div id='idHead' className='grid grid-cols-1 gap-y-2 border-b pb-4 border-zinc-300'>
-      <h1 contentEditable="true" className='font-bold text-4xl text-zinc-900'>Una Ivan Nendra</h1>
+      <h1 contentEditable="true" className='font-bold text-4xl text-zinc-900'>Mike O'Connor</h1>
       <div className='flex text-sm text-zinc-600'>
         <p contentEditable="true">UX Engineer</p> <span className='mx-2'>|</span>
         <p contentEditable="true">personal website</p> <span className='mx-2'>|</span>
