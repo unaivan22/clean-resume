@@ -3,6 +3,13 @@
 @tailwind utilities;
 
 
-#idHead input:focus-visible{
+/* #idHead input:focus-visible{
     border: 1px solid white !important;
-}
+} */
+
+
+@media print {
+    .offPrint, title, {
+      display:none;
+    }
+  }
