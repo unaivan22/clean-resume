@@ -1,6 +1,6 @@
 import { useState } from "react";
 import styled from "styled-components";
-import "./index.css";
+// import "./index.css";
 
 // https://medium.com/codex/building-a-to-do-list-app-using-react-hooks-and-styled-component-7e413a16b91e
 

@@ -1,14 +1,10 @@
-import { useState } from "react";
-import React from 'react'
-
-
-import Education from "./page/Education";
+// import logo from './logo.svg';
+import './App.css';
+import RouterPage from './page/RouterPage';
 
 function App() {
   return (
-    <div className="App">
-      <Education />
-    </div>
+    <RouterPage />
   );
 }
 
