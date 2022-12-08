@@ -19,16 +19,16 @@ export default function Skill() {
       <div className='grid grid-cols-6'>
         <h1 className='font-bold'>Skill</h1>
         <div className='col-span-5'>
-          <div className='grid grid-cols-3 mb-12 gap-x-8 gap-y-12'>
+          <div className='grid grid-cols-2 mb-12 gap-x-8 gap-y-12'>
             {item?.map((currentItem, index) => {
               return (
                 <div key={currentItem} id={`expense-${index}`}>
                   <div>
                     <TiDelete onClick={() => removeRow()} fontSize="1.5em" className='float-right text-zinc-600 hover:text-rose-600 offPrint' />
                     <div className='flex gap-x-4 items-center'>
-                      <h1 className='font-bold text-md' contentEditable="true">Design</h1> 
+                      <h1 className='font-bold text-md' contentEditable="true">Development</h1> 
                     </div>
-                    <p className='text-zinc-500 font-light text-sm' contentEditable="true">Strategy, User research, Competitive analysis, Usability testing, Prototyping, Visual Design, Interaction Design, Heuristics Evaluation</p>
+                    <p className='text-zinc-500 font-light text-sm' contentEditable="true">Javascript Framework, Frontend Development, User Emphaty</p>
                   </div>
                 </div>
               )
