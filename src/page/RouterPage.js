@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 import Home from './Home'
 import VersionOne from './v1/VersionOne'
+import VersionTwo from './v2/VersionTwo'
 
 export default function RouterPage() {
   return (
@@ -10,6 +11,7 @@ export default function RouterPage() {
         <Routes>
             <Route path='/' element={<Home/>} />
             <Route path='/v1' element={<VersionOne/>} />
+            <Route path='/v2' element={<VersionTwo/>} />
         </Routes>
      </Router>
   )
