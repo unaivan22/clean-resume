@@ -20,9 +20,9 @@ export default function Home() {
             <img className='object-fit ' src='extends/media/ResumeA4-2.png' />
             <span className='text-zinc-900 xl:text-medium lg:text-medium md:text-base sm:text-base xs:text-base py-12'>Slim Resume</span>
           </a>
-          <a className='bg-white p-2 rounded-2xl hover:scale-110 transition ease-in-out delay-150'>
-            <img className='object-fit rounded-xl' src='extends/media/commingsoon.png' />
-            <span className='text-zinc-900 xl:text-medium lg:text-medium md:text-base sm:text-base xs:text-base py-12 italic '>Comming Soon</span>
+          <a href='/v3' className='bg-white p-2 rounded-2xl hover:scale-110 transition ease-in-out delay-150'>
+            <img className='object-fit' src='extends/media/ResumeA4-3.png' />
+            <span className='text-zinc-900 xl:text-medium lg:text-medium md:text-base sm:text-base xs:text-base py-12 italic '>Simple Resume</span>
           </a>
           <a className='bg-white p-2 rounded-2xl hover:scale-110 transition ease-in-out delay-150'>
             <img className='object-fit rounded-xl' src='extends/media/commingsoon.png' />
