@@ -1,10 +1,9 @@
 import React from 'react'
-import { GoMarkGithub } from 'react-icons/go'
 import FontSizeChanger from 'react-font-size-changer';
 
 export default function Tools() {
   return (
-    <div className='fixed bottom-12 offPrint'>
+    <div className='fixed left-12 bottom-12 offPrint'>
         <div className="max-w-full rounded-xl px-8 py-4 bg-zinc-200 overflow-hidden shadow-lg">
           <FontSizeChanger
             targets={['#target .label-content']}

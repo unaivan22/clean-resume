@@ -7,6 +7,7 @@ import SkillOne from './SkillOne'
 import FloatBtn from '../utils/FloatBtn'
 import BackArrow from '../utils/BackArrow'
 import Tools from '../utils/Tools'
+import Toast from '../utils/Toast'
 
 export default function VersionOne() {
 
@@ -28,6 +29,7 @@ export default function VersionOne() {
       </div>
       <FloatBtn />
       <Tools />
+      <Toast />
     </div>
   )
 }
