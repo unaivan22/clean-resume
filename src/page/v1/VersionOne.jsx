@@ -6,6 +6,7 @@ import SkillOne from './SkillOne'
 
 import FloatBtn from '../utils/FloatBtn'
 import BackArrow from '../utils/BackArrow'
+import Tools from '../utils/Tools'
 
 export default function VersionOne() {
 
@@ -19,13 +20,14 @@ export default function VersionOne() {
     <div className='mx-auto padding-10mm bg-zinc-200'>
       {pagesize()}
       <BackArrow />
-      <div className='paper space-y-4 bg-white padding-10mm'>
+      <div id='target' className='paper space-y-4 bg-white padding-10mm'>
         <HeadOne />
         <ExperienceOne />
         <EducationOne />
         <SkillOne />
       </div>
       <FloatBtn />
+      <Tools />
     </div>
   )
 }

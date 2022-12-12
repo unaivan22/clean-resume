@@ -6,6 +6,7 @@ import SkillTwo from './SkillTwo'
 
 import FloatBtn from '../utils/FloatBtn'
 import BackArrow from '../utils/BackArrow'
+import Tools from '../utils/Tools'
 
 export default function VersionTwo() {
 
@@ -16,7 +17,7 @@ export default function VersionTwo() {
   }  
 
   return (
-    <div id='V2' className='mx-auto padding-10mm h-screen'>
+    <div id='target' className='V2 mx-auto padding-10mm h-screen'>
       {pagesize()}
       <BackArrow />
       <div className='grid grid-cols-7 gap-x-12'>
@@ -30,6 +31,7 @@ export default function VersionTwo() {
         </div>
       </div>
       <FloatBtn />
+      <Tools />
     </div>
   )
 }
