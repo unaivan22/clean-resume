@@ -38,7 +38,7 @@ export default function ExperienceTwo() {
               )
             } )}
           </div>
-          <button onClick={() => addNewRow()} className="bg-zinc-800 hover:bg-zinc-900 text-white font-normal text-sm py-2 px-4 rounded-xl offPrint">Add Experience</button>
+          <button onClick={() => addNewRow()} className="bg-zinc-800 hover:bg-zinc-900 text-white font-normal text-sm py-2 px-4 rounded-xl offPrint label-content">Add Experience</button>
         </div>
       </div>
     </div>
