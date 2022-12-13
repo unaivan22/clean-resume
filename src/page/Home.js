@@ -13,19 +13,19 @@ export default function Home() {
         </div>
         <div className='grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-1 xs:grid-cols-1 gap-x-4 gap-y-4 xl:-rotate-6 lg:-rotate-6 md:-rotate-6 sm:rotate-0 xs:rotate-0 lg:px-24 xl:px-24 md:px-24 sm:px-6 xs:px-6'>
           <a href='/v1' className='bg-white p-2 rounded-2xl hover:scale-110 transition ease-in-out delay-150'>
-            <img className='object-fit ' src='extends/media/ResumeA4-1.png' />
+            <img className='object-fit ' src='extends/media/ResumeA4-1.jpg' />
             <span className='text-zinc-900 xl:text-medium lg:text-medium md:text-base sm:text-sm xs:text-sm py-12 italic'>Clean Resume</span>
           </a>
           <a href='/v2' className='bg-white p-2 rounded-2xl hover:scale-110 transition ease-in-out delay-150'>
-            <img className='object-fit ' src='extends/media/ResumeA4-2.png' />
+            <img className='object-fit ' src='extends/media/ResumeA4-2.jpg' />
             <span className='text-zinc-900 xl:text-medium lg:text-medium md:text-base sm:text-base xs:text-base py-12 italic'>Slim Resume</span>
           </a>
           <a href='/v3' className='bg-white p-2 rounded-2xl hover:scale-110 transition ease-in-out delay-150'>
-            <img className='object-fit' src='extends/media/ResumeA4-3.png' />
+            <img className='object-fit' src='extends/media/ResumeA4-3.jpg' />
             <span className='text-zinc-900 xl:text-medium lg:text-medium md:text-base sm:text-base xs:text-base py-12 italic '>Simple Resume</span>
           </a>
           <a href='/v4' className='bg-white p-2 rounded-2xl hover:scale-110 transition ease-in-out delay-150'>
-            <img className='object-fit rounded-xl' src='extends/media/ResumeA4-4.png' />
+            <img className='object-fit rounded-xl' src='extends/media/ResumeA4-4.jpg' />
             <span className='text-zinc-900 xl:text-medium lg:text-medium md:text-base sm:text-base xs:text-base py-12 italic '>Clear Resume</span>
           </a>
         </div>
