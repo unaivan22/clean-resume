@@ -8,7 +8,7 @@ import FloatBtn from '../utils/FloatBtn'
 import BackArrow from '../utils/BackArrow'
 import Tools from '../utils/Tools'
 import Toast from '../utils/Toast'
-import MetaResume from '../utils/MetaResume'
+import MetaResumeLandscape from '../utils/MetaResumeLandscape'
 
 export default function VersionFive() {
 
@@ -22,7 +22,7 @@ export default function VersionFive() {
     <div className='mx-auto padding-10mm bg-zinc-200'>
       {pagesize()}
       <BackArrow />
-      <MetaResume />
+      <MetaResumeLandscape />
       <div id='target' className='paper space-y-8 bg-white padding-10mm'>
         <HeadFive />
         <ExperienceFive />
