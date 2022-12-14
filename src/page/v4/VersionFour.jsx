@@ -9,6 +9,7 @@ import FloatBtn from '../utils/FloatBtn'
 import BackArrow from '../utils/BackArrow'
 import Tools from '../utils/Tools'
 import Toast from '../utils/Toast'
+import MetaResume from '../utils/MetaResume'
 
 export default function VersionFour() {
 
@@ -22,6 +23,7 @@ export default function VersionFour() {
     <div id='target' className='V4 mx-auto padding-10mm bg-zinc-200'>
       {pagesize()}
       <BackArrow />
+      <MetaResume />
       <div id='target' className='paper space-y-8 bg-white padding-10mm'>
         <HeadFour />
         <AboutFour />

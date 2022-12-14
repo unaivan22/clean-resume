@@ -8,6 +8,7 @@ import FloatBtn from '../utils/FloatBtn'
 import BackArrow from '../utils/BackArrow'
 import Tools from '../utils/Tools'
 import Toast from '../utils/Toast'
+import MetaResume from '../utils/MetaResume'
 
 export default function VersionOne() {
 
@@ -21,6 +22,7 @@ export default function VersionOne() {
     <div className='mx-auto padding-10mm bg-zinc-200'>
       {pagesize()}
       <BackArrow />
+      <MetaResume />
       <div id='target' className='paper space-y-4 bg-white padding-10mm'>
         <HeadOne />
         <ExperienceOne />
