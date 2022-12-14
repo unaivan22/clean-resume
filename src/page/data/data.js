@@ -16,14 +16,14 @@ export const template = [{
     id: 3,
     title: 'Slim Resume',
     image: '/extends/media/ResumeA4-3.jpg',
-    link: '/v2',
+    link: '/v3',
     tags: 'portrait',
     type: 'resume'
   },{
     id: 4,
     title: 'Slim Resume',
     image: '/extends/media/ResumeA4-4.jpg',
-    link: '/v2',
+    link: '/v4',
     tags: 'portrait',
     type: 'resume'
   },{
