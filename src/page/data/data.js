@@ -1,20 +1,37 @@
 export const template = [{
-    id: 0,
+    id: 1,
     title: 'Clean Resume',
     image: '/extends/media/ResumeA4-1.jpg',
     link: '/v1',
-    tags: 'portrait'
-  },{
-    id: 1,
-    title: 'Slim Resume',
-    image: '/extends/media/ResumeA4-1.jpg',
-    link: '/v2',
-    tags: 'landscape'
+    tags: 'portrait',
+    type: 'resume'
   },{
     id: 2,
     title: 'Slim Resume',
     image: '/extends/media/ResumeA4-2.jpg',
     link: '/v2',
-    tags: 'landscape'
+    tags: 'portrait',
+    type: 'resume'
+  },{
+    id: 3,
+    title: 'Slim Resume',
+    image: '/extends/media/ResumeA4-3.jpg',
+    link: '/v2',
+    tags: 'portrait',
+    type: 'resume'
+  },{
+    id: 4,
+    title: 'Slim Resume',
+    image: '/extends/media/ResumeA4-4.jpg',
+    link: '/v2',
+    tags: 'portrait',
+    type: 'resume'
+  },{
+    id: 5,
+    title: 'Clean Resume Landscape',
+    image: '/extends/media/ResumeA4-5.jpg',
+    link: '/v5',
+    tags: 'landscape',
+    type: 'resume'
   }];
   

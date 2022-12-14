@@ -2,9 +2,9 @@ import React from 'react'
 
 import { template } from './data.js';
 
-export default function PortraitTemplate() {
+export default function LandscapeTemplate() {
   const landscape = template.filter(getTemplate =>
-    getTemplate.tags === 'portrait'
+    getTemplate.tags === 'landscape'
   );
   const listItems = landscape.map(getTemplate =>
     <a key={getTemplate.id} href={getTemplate.link} className='bg-white p-2 rounded-2xl hover:scale-110 transition ease-in-out delay-150 text-center'>

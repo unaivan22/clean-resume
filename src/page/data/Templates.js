@@ -1,21 +1,20 @@
-import React, { Component } from 'react'
-import data from './data.json'
+import React from 'react'
 
-class Templates extends Component {
-	render() {
-		return (
-            <div className='grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-1 xs:grid-cols-1 gap-x-4 gap-y-4 lg:px-24 xl:px-24 md:px-24 sm:px-6 xs:px-6'>
-                { data.exploreTemplate.map((templates, i) => {
-						return (
-                            <a  key={templates.id} href={templates.link} className='bg-white p-2 rounded-2xl hover:scale-110 transition ease-in-out delay-150 text-center'>
-                                <img className='object-fit rounded-xl' src={templates.image} />
-                                <span className='text-zinc-900 xl:text-medium lg:text-medium md:text-base sm:text-sm xs:text-sm py-12 italic'>{templates.title}</span>
-                            </a>
-						);
-					})
-				}
-            </div>
-        );
-    }
-} 
-export default Templates;
+import { template } from './data.js';
+
+export default function PortraitTemplate() {
+  const landscape = template.filter(getTemplate =>
+    getTemplate.type === 'resume'
+  );
+  const listItems = landscape.map(getTemplate =>
+    <div key={getTemplate.id} className='break-inside bg-white p-2 rounded-2xl hover:scale-110 transition ease-in-out delay-150 text-center max-w-sm overflow-hidden'>
+        <a href={getTemplate.link} >
+        <img className='object-fit rounded-xl' src={getTemplate.image} />
+        </a>
+    <span className='text-zinc-900 xl:text-medium lg:text-medium md:text-base sm:text-sm xs:text-sm py-12 italic'>{getTemplate.title}</span>
+    </div>
+  );
+  return <div className='order-first xs:masonry-1-col sm:masonry-2-col md:masonry-2-col lg:masonry-3-col xl:masonry-3-col gap-x-6 gap-y-6 gap-x-4 space-y-4 sm:px-6 xs:px-6 w-full'>{listItems}</div>;
+}
+
+
