@@ -2,6 +2,7 @@ import React from 'react'
 import { IoPrint } from 'react-icons/io5'
 import { GoMarkGithub } from 'react-icons/go'
 import { useNavigate } from 'react-router-dom';
+import { Walktour } from 'walktour';
 
 
 export default function FloatBtn() {
@@ -19,6 +20,11 @@ export default function FloatBtn() {
                 <IoPrint size={42} />
             </a>
         </div>
+        <Walktour
+          steps={[
+            {selector: "#StepName", title: "Edit Text", description: "Tap or click on any text for edit"}
+          ]}
+        />
     </div>
   )
 }
