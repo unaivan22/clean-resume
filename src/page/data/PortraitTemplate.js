@@ -7,7 +7,7 @@ export default function PortraitTemplate() {
     getTemplate.tags === 'portrait'
   );
   const listItems = landscape.map(getTemplate =>
-    <a key={getTemplate.id} href={getTemplate.link} className='bg-white p-2 rounded-2xl hover:scale-110 transition ease-in-out delay-150 text-center'>
+    <a key={getTemplate.id} href={getTemplate.link} className='bg-white p-2 rounded-2xl hover:scale-110 transition ease-in-out delay-150 text-center border border-zinc-200'>
         <img className='object-fit rounded-xl' src={getTemplate.image} />
         <span className='text-zinc-900 xl:text-medium lg:text-medium md:text-base sm:text-sm xs:text-sm py-12 italic'>{getTemplate.title}</span>
     </a>

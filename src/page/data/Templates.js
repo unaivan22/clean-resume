@@ -7,7 +7,7 @@ export default function PortraitTemplate() {
     getTemplate.type === 'resume'
   );
   const listItems = landscape.map(getTemplate =>
-    <div key={getTemplate.id} className='break-inside bg-white p-2 rounded-2xl hover:scale-110 transition ease-in-out delay-150 text-center max-w-sm overflow-hidden'>
+    <div key={getTemplate.id} className='break-inside bg-white p-2 rounded-2xl hover:scale-110 transition ease-in-out delay-150 text-center max-w-sm overflow-hidden border border-zinc-200'>
         <a href={getTemplate.link} >
         <img className='object-fit rounded-xl' src={getTemplate.image} />
         </a>
