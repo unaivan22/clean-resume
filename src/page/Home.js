@@ -8,8 +8,8 @@ export default function Home() {
     <div className='bg-white'>
       <div className="grid place-items-center bg-white 2xl:pt-32 xl:pt-32 md:pt-32 sm:pt-12 xs:pt-12">
         <div className='text-white grid grid-cols-1 text-center sm:px-4 xs:px-4'>
-          <h1 className='font-bold xl:text-6xl lg:text-6xl md:text-6xl sm:text-5xl xs:text-5xl mx-auto leading-snug text-zinc-900'>Speed up build of your <br className='2xl:block xl:block md:block sm:hidden xs:hidden' /> ATS-Friendly template resume</h1>
-          <div className='grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 gap-x-4 gap-y-4  text-center mx-auto mt-12 mb-32'>
+          <h1 className='font-bold xl:text-6xl lg:text-6xl md:text-6xl sm:text-4xl xs:text-4xl mx-auto leading-snug text-zinc-900'>Speed up build of your <br className='2xl:block xl:block md:block sm:hidden xs:hidden' /> ATS-Friendly template resume</h1>
+          <div className='grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 gap-x-4 gap-y-4  text-center mx-auto mt-12 xl:mb-32 lg:mb-32 md:mb-32 sm:mb-12 xs:mb-12'>
             <a href='/templates' className='bg-emerald-600 px-8 py-4 rounded-2xl font-base hover:bg-emerald-900'>View All Templates</a>
             <a href='https://github.com/unaivan22/clean-resume' className='bg-zinc-300 text-zinc-700 px-8 py-4 rounded-2xl font-base hover:bg-zinc-900 hover:text-white'>Clone Templates</a>
           </div>
