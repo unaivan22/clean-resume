@@ -55,6 +55,23 @@ body {
     .offPrint {
      display:none;
    }
+   .quill{
+    padding: 0 !important;
+    border: none !important;
+  }
+
+  .quill .ql-toolbar{
+    display: none !important;
+  }
+
+  .quill .ql-container {
+    border: none !important;
+    padding: 0 !important;
+  }
+
+  .quill .ql-editor {
+    padding: 0 !important;
+  }
 }
 
 @variants responsive {

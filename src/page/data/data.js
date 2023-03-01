@@ -33,5 +33,13 @@ export const template = [{
     link: '/v5',
     tags: 'landscape',
     type: 'resume'
-  }];
+  },{
+    id: 6,
+    title: 'Clean',
+    image: '/extends/media/ResumeA4-6.png',
+    link: '/v6',
+    tags: 'portrait',
+    type: 'resume'
+  }
+];
   

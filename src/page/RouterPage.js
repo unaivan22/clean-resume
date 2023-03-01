@@ -7,6 +7,7 @@ import VersionTwo from './v2/VersionTwo'
 import VersionThree from './v3/VersionThree'
 import VersionFour from './v4/VersionFour'
 import VersionFive from './v5/VersionFive'
+import VersionSix from './v6/VersionSix'
 import AllTemplates from './AllTemplates'
 
 export default function RouterPage() {
@@ -19,6 +20,7 @@ export default function RouterPage() {
             <Route path='/v3' element={<VersionThree/>} />
             <Route path='/v4' element={<VersionFour/>} />
             <Route path='/v5' element={<VersionFive/>} />
+            <Route path='/v6' element={<VersionSix/>} />
             <Route path='/templates' element={<AllTemplates/>} />
 
         </Routes>
