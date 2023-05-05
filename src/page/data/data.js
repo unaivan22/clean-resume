@@ -47,6 +47,13 @@ export const template = [{
     link: '/v7',
     tags: 'portrait',
     type: 'resume'
+  },{
+    id: 8,
+    title: 'Clean',
+    image: '/extends/media/ResumeA4-8.jpg',
+    link: '/v8',
+    tags: 'portrait',
+    type: 'resume'
   }
 ];
   
