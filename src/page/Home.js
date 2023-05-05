@@ -21,19 +21,19 @@ export default function Home() {
             <div className='flex gap-6'>
               <a href='/v1' className='bg-white p-2 rounded-2xl hover:scale-110 transition ease-in-out delay-150 text-center border border-zinc-200'>
                 <img className='object-fit ' src='extends/media/ResumeA4-1.jpg' />
-                <span className='text-zinc-900 xl:text-medium lg:text-medium md:text-base sm:text-sm xs:text-sm py-12 italic'>Clean Resume</span>
+                {/* <span className='text-zinc-900 xl:text-medium lg:text-medium md:text-base sm:text-sm xs:text-sm py-12 italic'>Clean Resume</span> */}
               </a>
               <a href='/v2' className='bg-white p-2 rounded-2xl hover:scale-110 transition ease-in-out delay-150 text-center border border-zinc-200'>
                 <img className='object-fit ' src='extends/media/ResumeA4-2.jpg' />
-                <span className='text-zinc-900 xl:text-medium lg:text-medium md:text-base sm:text-base xs:text-base py-12 italic'>Slim Resume</span>
+                {/* <span className='text-zinc-900 xl:text-medium lg:text-medium md:text-base sm:text-base xs:text-base py-12 italic'>Slim Resume</span> */}
               </a>
               <a href='/v3' className='bg-white p-2 rounded-2xl hover:scale-110 transition ease-in-out delay-150 text-center border border-zinc-200'>
                 <img className='object-fit' src='extends/media/ResumeA4-3.jpg' />
-                <span className='text-zinc-900 xl:text-medium lg:text-medium md:text-base sm:text-base xs:text-base py-12 italic '>Simple Resume</span>
+                {/* <span className='text-zinc-900 xl:text-medium lg:text-medium md:text-base sm:text-base xs:text-base py-12 italic '>Simple Resume</span> */}
               </a>
               <a href='/v4' className='bg-white p-2 rounded-2xl hover:scale-110 transition ease-in-out delay-150 text-center border border-zinc-200'>
                 <img className='object-fit rounded-xl' src='extends/media/ResumeA4-4.jpg' />
-                <span className='text-zinc-900 xl:text-medium lg:text-medium md:text-base sm:text-base xs:text-base py-12 italic '>Clear Resume</span>
+                {/* <span className='text-zinc-900 xl:text-medium lg:text-medium md:text-base sm:text-base xs:text-base py-12 italic '>Clear Resume</span> */}
               </a>
             </div>
         </section>
@@ -41,19 +41,19 @@ export default function Home() {
             <div className='flex gap-4 mobileHome overflow-x-scroll overflow-y-hidden'>
               <a href='/v1' className='bg-white p-2 rounded-2xl text-center border border-zinc-200'>
                   <img className='object-fit xl:max-w-full lg:max-w-full sm:max-w-xs xs:max-w-xs ' src='extends/media/ResumeA4-1.jpg' />
-                  <span className='text-zinc-900 xl:text-medium lg:text-medium md:text-base sm:text-sm xs:text-sm py-12 italic'>Clean Resume</span>
+                  {/* <span className='text-zinc-900 xl:text-medium lg:text-medium md:text-base sm:text-sm xs:text-sm py-12 italic'>Clean Resume</span> */}
                 </a>
                 <a href='/v2' className='bg-white p-2 rounded-2xl text-center border border-zinc-200'>
                   <img className='object-fit xl:max-w-full lg:max-w-full sm:max-w-xs xs:max-w-xs ' src='extends/media/ResumeA4-2.jpg' />
-                  <span className='text-zinc-900 xl:text-medium lg:text-medium md:text-base sm:text-base xs:text-base py-12 italic'>Slim Resume</span>
+                  {/* <span className='text-zinc-900 xl:text-medium lg:text-medium md:text-base sm:text-base xs:text-base py-12 italic'>Slim Resume</span> */}
                 </a>
                 <a href='/v3' className='bg-white p-2 rounded-2xl text-center border border-zinc-200'>
                   <img className='object-fit xl:max-w-full lg:max-w-full sm:max-w-xs xs:max-w-xs' src='extends/media/ResumeA4-3.jpg' />
-                  <span className='text-zinc-900 xl:text-medium lg:text-medium md:text-base sm:text-base xs:text-base py-12 italic '>Simple Resume</span>
+                  {/* <span className='text-zinc-900 xl:text-medium lg:text-medium md:text-base sm:text-base xs:text-base py-12 italic '>Simple Resume</span> */}
                 </a>
                 <a href='/v4' className='bg-white p-2 rounded-2xl text-center border border-zinc-200'>
                   <img className='object-fit xl:max-w-full lg:max-w-full sm:max-w-xs xs:max-w-xs rounded-xl' src='extends/media/ResumeA4-4.jpg' />
-                  <span className='text-zinc-900 xl:text-medium lg:text-medium md:text-base sm:text-base xs:text-base py-12 italic '>Clear Resume</span>
+                  {/* <span className='text-zinc-900 xl:text-medium lg:text-medium md:text-base sm:text-base xs:text-base py-12 italic '>Clear Resume</span> */}
                 </a>
             </div>
         </section>

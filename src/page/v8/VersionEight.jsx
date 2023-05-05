@@ -26,17 +26,20 @@ export default function VersionEight() {
       <BackArrow />
       <MetaResume />
       <HeadEight />
-      <div className='grid grid-cols-2 gap-x-6'>
+      <ExperienceEight />
+      <EducationEight />
+      <SkillEight />
+      {/* <div className='grid grid-cols-1 gap-x-6'>
         <div>
-        <ExperienceEight />
+        
         </div>
         <div className='space-y-8'>
-          <EducationEight />
+          
           <AchievementEight />
-          <SkillEight />
+          
           <SoftwareToolEight />
         </div>
-      </div>
+      </div> */}
       <FloatBtn />
       <Tools />
       <Toast />

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function HeadSeven() {
   return (
-    <div className='grid grid-cols-2 gap-y-2 mb-4 mx-auto border-b border-zinc-300 pb-8'>
+    <div className='grid grid-cols-2 gap-y-2 mb-4 mx-auto pb-8 mb-16'>
      <div>
         <h1 contentEditable="true" id='StepName' className='font-bold text-3xl text-zinc-700 label-content'>Dinivan Nendra </h1>
         <p className='text-zinc-600 text-sm' contentEditable>Frontend, UI/UX Designer</p>
