@@ -17,26 +17,28 @@ export default function VersionNine() {
 
   function pagesize(){
     document.querySelector("#body").classList.add('A4');
-    document.querySelector("#root").classList.add('sheet', 'padding-10mm')
+    document.querySelector("#root").classList.add('sheet', 'padding-20mm')
   }  
 
   return (
-    <div id='target' className='V2 mx-auto padding-10mm h-screen'>
+    <div id='target' className='V9 mx-auto padding-20mm h-screen'>
       {pagesize()}
       <BackArrow />
       <MetaResume />
       <HeadNine />
-      <div className='grid grid-cols-2 gap-x-6'>
+      <ExperienceNine />
+      <EducationNine />
+      {/* <div className='grid grid-cols-2 gap-x-6'>
         <div>
-        <ExperienceNine />
+        
         </div>
         <div className='space-y-8'>
-          <EducationNine />
+          
           <AchievementNine />
           <SkillNine />
           <SoftwareToolNine />
         </div>
-      </div>
+      </div> */}
       <FloatBtn />
       <Tools />
       <Toast />
