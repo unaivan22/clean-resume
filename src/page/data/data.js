@@ -55,10 +55,17 @@ export const template = [{
     tags: 'portrait',
     type: 'resume'
   },{
-    id: 8,
+    id: 9,
     title: 'Clean',
     image: '/extends/media/ResumeA4-9.webp',
     link: '/v9',
+    tags: 'portrait',
+    type: 'resume'
+  },{
+    id: 10,
+    title: 'Clean',
+    image: '/extends/media/ResumeA4-10.webp',
+    link: '/v10',
     tags: 'portrait',
     type: 'resume'
   }
