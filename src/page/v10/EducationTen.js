@@ -26,9 +26,8 @@ export default function EducationTen() {
                     <TiDelete onClick={() => removeRow()} fontSize="1.5em" className='float-right text-zinc-600 hover:text-rose-600 offPrint label-content' />
                     <div className='grid flex-col'>
                       <h1 className='font-bold text-md text-lg label-content' contentEditable="true">B.S. Human Computer Interaction </h1> 
-                      <div className='grid grid-cols-2 mt-2'>
-                        <h1 className='font-base text-zinc-500 text-xs label-content' contentEditable="true">January 2006 — 2010</h1>
-                        <h1 className='font-base text-zinc-400 text-xs label-content text-right' contentEditable="true">Rhode Island School of Design (RISD)</h1>
+                      <div className='grid grid-cols-1 mt-2'>
+                        <h1 className='font-base text-zinc-500 text-xs label-content' contentEditable="true">January 2006 — 2010 <span className='ml-2'>Rhode Island School of Design (RISD)</span> </h1>
                       </div>
                     </div>
                   </div>

@@ -2,12 +2,16 @@ import React from 'react'
 
 export default function HeadTen() {
   return (
-    <div className='grid grid-cols-1 gap-y-2 mb-4 mx-auto border-b border-zinc-100 text-center'>
-      <h1 contentEditable="true" id='StepName' className='font-bold text-4xl text-zinc-700 label-content'>Michelle Black</h1>
-      <div className='grid grid-cols-1 text-sm text-zinc-900 label-content'>
-        <p  className='label-content space-x-4 text-sm text-zinc-500 font-light'><span contentEditable="true">amandakim.com</span> <span contentEditable="true">hello@amandakim.com</span> <span contentEditable="true">(310) 555 - 9572</span> </p>
-        <p  className='label-content text-sm text-zinc-500 my-6 font-light' contentEditable="true">Leading teams and organizations to the realization of successful outcomes at the intersection of customer needs and business goals.</p>
-      </div>
+    <div className='grid grid-cols-2 gap-y-2 mx-auto mb-12'>
+     <div>
+        <h1 contentEditable="true" id='StepName' className='font-bold text-3xl text-zinc-700 label-content'>Michelle Black </h1>
+        <p className='text-zinc-600 font-light text-sm' contentEditable>Digital Product & UX Designer</p>
+     </div>
+     <div className='text-right mt-2'>
+        <p className='text-zinc-500 font-light text-sm' contentEditable>michelleblack.com</p>
+        <p className='text-zinc-500 font-light text-sm' contentEditable>hello@michelleblack.com</p>
+        <p className='text-zinc-500 font-light text-sm' contentEditable>310 555 - 9572</p>
+     </div>
     </div>
   )
 }

@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from "react"
 import { TiDelete } from 'react-icons/ti';
 
-export default function SkillTen() {
+export default function SoftwareTollsTen() {
   const [item, setItem] = useState(['div'])
   function addNewRow(){
     const current = [...item];
@@ -17,16 +17,15 @@ export default function SkillTen() {
   return (
     <div>
       <div className='grid grid-cols-1 mx-auto mt-6'>
-      <h1 className='font-normal text-sm text-zinc-500 tracking-widest label-content'>Skill & Background</h1>
         <div className=''>
           <div className='grid grid-cols-1 mt-4 mb-4 gap-y-2'>
-          <h1 className='font-bold text-sm text-zinc-800 tracking-widest label-content'>Product Design Toolkit</h1>
+          <h1 className='font-bold text-sm text-zinc-800 tracking-widest label-content'>Tools</h1>
             {item?.map((currentItem, index) => {
               return (
                 <div key={currentItem} id={`expense-${index}`}>
                   <div>
                     <TiDelete onClick={() => removeRow()} fontSize="1.5em" className='float-right text-zinc-600 hover:text-rose-600 offPrint label-content' />
-                    <p className='text-zinc-500 font-light text-sm label-content' contentEditable="true">Usability Testing</p>
+                    <p className='text-zinc-500 font-light text-sm label-content' contentEditable="true">Figma</p>
                   </div>
                 </div>
               )

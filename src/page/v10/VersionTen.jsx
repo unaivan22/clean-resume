@@ -3,8 +3,8 @@ import HeadTen from './HeadTen'
 import ExperienceTen from './ExperienceTen'
 import EducationTen from './EducationTen'
 import SkillTen from './SkillTen'
-import AchievementTen from './AchievementTen'
-import SoftwareToolTen from './SoftwareToolTen'
+import SoftwareTollsTen from './SoftwareTollsTen'
+import HobbiesTen from './HobbiesTen'
 
 import FloatBtn from '../utils/FloatBtn'
 import BackArrow from '../utils/BackArrow'
@@ -17,35 +17,26 @@ export default function VersionTen() {
 
   function pagesize(){
     document.querySelector("#body").classList.add('A4');
-    document.querySelector("#root").classList.add('sheet', 'padding-20mm')
+    document.querySelector("#root").classList.add('sheet', 'padding-15mm')
   }  
 
   return (
-    <div id='target' className='V9 mx-auto padding-20mm h-screen'>
+    <div id='target' className='V10 mx-auto padding-15mm h-screen'>
       {pagesize()}
       <BackArrow />
       <MetaResume />
       <HeadTen />
-      <div className='grid grid-cols-7 gap-x-12'>
-        <div className='col-span-5'>
+      <div className='grid grid-cols-9 gap-x-12'>
+        <div className='col-span-6'>
           <ExperienceTen />
           <EducationTen />
         </div>
-        <div className='col-span-2'>
+        <div className='col-span-3'>
           <SkillTen />
+          <SoftwareTollsTen />
+          <HobbiesTen />
         </div>
       </div>
-      {/* <div className='grid grid-cols-2 gap-x-6'>
-        <div>
-        
-        </div>
-        <div className='space-y-8'>
-          
-          <AchievementTen />
-          
-          <SoftwareToolTen />
-        </div>
-      </div> */}
       <FloatBtn />
       <Tools />
       <Toast />
