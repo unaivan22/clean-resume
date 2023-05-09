@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function HeadTen() {
   return (
-    <div className='grid grid-cols-2 gap-y-2 mx-auto mb-12'>
+    <div className='grid grid-cols-2 gap-y-2 mx-auto mb-2 border-b border-zinc-300 pb-8'>
      <div>
         <h1 contentEditable="true" id='StepName' className='font-bold text-3xl text-zinc-700 label-content'>Michelle Black </h1>
         <p className='text-zinc-600 font-light text-sm' contentEditable>Digital Product & UX Designer</p>
