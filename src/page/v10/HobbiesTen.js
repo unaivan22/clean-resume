@@ -31,7 +31,7 @@ export default function HobbiesTen() {
               )
             } )}
           </div>
-          <button onClick={() => addNewRow()} className="bg-zinc-800 hover:bg-zinc-900 text-white font-normal text-sm py-2 px-4 rounded-xl offPrint label-content">Add Skill</button>
+          <button onClick={() => addNewRow()} className="bg-zinc-800 hover:bg-zinc-900 text-white font-normal text-sm py-2 px-4 rounded-xl offPrint label-content">Add Hobby</button>
         </div>
       </div>
     </div>
