@@ -22,7 +22,7 @@ export default function EducationSeven() {
             {item?.map((currentItem, index) => {
               return (
                 <div key={currentItem} id={`expense-${index}`}>
-                  <TiDelete onClick={() => removeRow()} fontSize="1.5em" className='float-right text-zinc-600 hover:text-rose-600 offPrint label-content' />
+                  <TiDelete onClick={() => removeRow()} fontSize="1.5em" className='deletebtn float-right text-zinc-600 hover:text-rose-600 offPrint label-content' />
                   <div className='grid grid-cols-7 mb-12'>
                     <div className='col-span-2'>
                       <h1 className='font-bold text-md text-md label-content' contentEditable="true">University Name</h1> 

@@ -24,7 +24,7 @@ export default function ExperienceOne() {
               return (
                 <div key={currentItem} id={`expense-${index}`}>
                   <div>
-                    <TiDelete onClick={() => removeRow()} fontSize="1.5em" className='float-right text-zinc-600 hover:text-rose-600 offPrint label-content' />
+                    <TiDelete onClick={() => removeRow()} fontSize="1.5em" className='deletebtn float-right text-zinc-600 hover:text-rose-600 offPrint label-content' />
                     <div className='flex gap-x-2 items-center'>
                       <h1 className='font-bold text-md label-content' contentEditable="true">Company</h1> <span className='text-zinc-300'>|</span> <span contentEditable="true" className='text-sm font-sm text-zinc-500 label-content'>Role</span> <span className='text-zinc-300'>|</span><span contentEditable="true" className='text-sm font-sm text-zinc-500 label-content'>Start - End </span><span className='text-zinc-300'>|</span><span contentEditable="true" className='text-sm font-sm text-zinc-500 label-content'>Employee Type</span>
                     </div>

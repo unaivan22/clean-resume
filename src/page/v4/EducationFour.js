@@ -28,7 +28,7 @@ export default function EducationFour() {
                     <p className='text-zinc-500 font-light text-sm label-content' contentEditable="true">Dec 2023</p>
                   </div>
                   <div className='w-full'>
-                    <TiDelete onClick={() => removeRow()} fontSize="1.5em" className='float-right text-zinc-600 hover:text-rose-600 offPrint label-content' />
+                    <TiDelete onClick={() => removeRow()} fontSize="1.5em" className='deletebtn float-right text-zinc-600 hover:text-rose-600 offPrint label-content' />
                     <div className='flex gap-x-2 items-center'>
                       <h1 className='font-bold text-md label-content' contentEditable="true">Harvard University</h1>
                     </div>

@@ -24,7 +24,7 @@ export default function ExperienceThree() {
               return (
                 <div key={currentItem} id={`expense-${index}`}>
                   <div>
-                    <TiDelete onClick={() => removeRow()} fontSize="1.5em" className='float-right text-zinc-600 hover:text-rose-600 offPrint label-content' />
+                    <TiDelete onClick={() => removeRow()} fontSize="1.5em" className='deletebtn float-right text-zinc-600 hover:text-rose-600 offPrint label-content' />
                     <div className='grid flex-col'>
                       <h1 className='font-base text-md text-lg label-content' contentEditable="true">Apple</h1> 
                       <h1 className='font-bold text-lg label-content' contentEditable="true">UX Engineer</h1> 

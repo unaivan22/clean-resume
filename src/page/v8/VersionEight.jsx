@@ -11,6 +11,7 @@ import BackArrow from '../utils/BackArrow'
 import Tools from '../utils/Tools'
 import Toast from '../utils/Toast'
 import MetaResume from '../utils/MetaResume'
+import ThemeChange from '../utils/ThemeChange'
 
 export default function VersionEight() {
 
@@ -43,6 +44,7 @@ export default function VersionEight() {
       <FloatBtn />
       <Tools />
       <Toast />
+      <ThemeChange />
     </div>
   )
 }

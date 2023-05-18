@@ -23,7 +23,7 @@ export default function ExperienceTen() {
               return (
                 <div key={currentItem} id={`expense-${index}`}>
                   <div>
-                    <TiDelete onClick={() => removeRow()} fontSize="1.5em" className='float-right text-zinc-600 hover:text-rose-600 offPrint label-content' />
+                    <TiDelete onClick={() => removeRow()} fontSize="1.5em" className='deletebtn float-right text-zinc-600 hover:text-rose-600 offPrint label-content' />
                     <div className='grid flex-col'>
                       <h1 className='font-bold text-md text-lg label-content' contentEditable="true">Apple <span className='font-normal text-zinc-400 text-md label-content ml-2' contentEditable="true">Staff Product Designer</span></h1> 
                       <div className='grid grid-cols-2 mt-2'>

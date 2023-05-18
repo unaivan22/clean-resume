@@ -22,7 +22,7 @@ export default function SkillSeven() {
             {item?.map((currentItem, index) => {
               return (
                 <div key={currentItem} id={`expense-${index}`} className='relative'>
-                   <TiDelete onClick={() => removeRow()} fontSize="1.5em" className='right-0 text-rose-400 hover:text-rose-600 top-0 offPrint label-content absolute' />
+                   <TiDelete onClick={() => removeRow()} fontSize="1.5em" className='deletebtn right-0 text-rose-400 hover:text-rose-600 top-0 offPrint label-content absolute' />
                    <div class="bg-zinc-200 text-zinc-900 font-bold py-2 px-4 rounded-lg w-fit" contentEditable="true">
                       Javascript
                     </div>

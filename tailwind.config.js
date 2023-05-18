@@ -44,10 +44,11 @@ module.exports = {
       '20xl': '20rem',
     }
   },
+  // plugins: [
+  //   require('flowbite/plugin', 'daisyui')
+  // ],
+  plugins: [require("daisyui")],
   daisyui: {
-    themes: ["light", "dark", "cupcake", "bumblebee", "emerald", "corporate", "synthwave", "retro", "cyberpunk", "valentine", "halloween", "garden", "forest", "aqua", "lofi", "pastel", "fantasy", "wireframe", "black", "luxury", "dracula", "cmyk", "autumn", "business", "acid", "lemonade", "night", "coffee", "winter"],
+    themes: ["light", "dark"],
   },
-  plugins: [
-    require('flowbite/plugin', 'daisyui')
-  ]
 }

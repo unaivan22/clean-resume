@@ -10,6 +10,7 @@ import BackArrow from '../utils/BackArrow'
 import Tools from '../utils/Tools'
 import Toast from '../utils/Toast'
 import MetaResume from '../utils/MetaResume'
+import ThemeChange from '../utils/ThemeChange'
 
 export default function VersionSix() {
 
@@ -20,11 +21,11 @@ export default function VersionSix() {
   }  
 
   return (
-    <div id='target' className='V4 mx-auto padding-10mm bg-zinc-200'>
+    <div id='target' className='V4 mx-auto padding-10mm '>
       {pagesize()}
       <BackArrow />
       <MetaResume />
-      <div id='target' className='paper space-y-8 bg-white padding-10mm'>
+      <div id='target' className='paper space-y-8 padding-10mm'>
         <HeadSix />
         {/* <AboutSix /> */}
         <ExperienceSix />
@@ -34,6 +35,7 @@ export default function VersionSix() {
       <FloatBtn />
       <Tools />
       <Toast />
+      <ThemeChange />
     </div>
   )
 }

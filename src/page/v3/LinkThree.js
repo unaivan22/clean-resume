@@ -24,7 +24,7 @@ export default function LinkThree() {
               return (
                 <div key={currentItem} id={`expense-${index}`}>
                   <div>
-                    <TiDelete onClick={() => removeRow()} fontSize="1.5em" className='float-right text-zinc-600 hover:text-rose-600 offPrint label-content' />
+                    <TiDelete onClick={() => removeRow()} fontSize="1.5em" className='deletebtn float-right text-zinc-600 hover:text-rose-600 offPrint label-content' />
                     <h1 className='font-light text-sm label-content' contentEditable="true">twitter.com/enniodybeli</h1> 
                   </div>
                 </div>

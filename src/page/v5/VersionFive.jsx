@@ -9,6 +9,7 @@ import BackArrow from '../utils/BackArrow'
 import Tools from '../utils/Tools'
 import Toast from '../utils/Toast'
 import MetaResumeLandscape from '../utils/MetaResumeLandscape'
+import ThemeChange from '../utils/ThemeChange'
 
 export default function VersionFive() {
 
@@ -19,11 +20,11 @@ export default function VersionFive() {
   }  
 
   return (
-    <div className='mx-auto padding-10mm bg-zinc-200'>
+    <div className='mx-auto padding-10mm'>
       {pagesize()}
       <BackArrow />
       <MetaResumeLandscape />
-      <div id='target' className='paper space-y-8 bg-white padding-10mm'>
+      <div id='target' className='paper space-y-8 padding-10mm'>
         <HeadFive />
         <ExperienceFive />
         <EducationFive />
@@ -32,6 +33,7 @@ export default function VersionFive() {
       <FloatBtn />
       <Tools />
       <Toast />
+      <ThemeChange />
     </div>
   )
 }

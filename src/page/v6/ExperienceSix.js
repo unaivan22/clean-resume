@@ -44,7 +44,7 @@ export default function ExperienceSix() {
               return (
                 <div key={currentItem} id={`expense-${index}`} className='grid grid-cols-7'>
                 <div className='col-span-2'>
-                  <p className='text-zinc-900 font-bold text-sm label-content flex flex-row' contentEditable="true">Company Name <span> <TiDelete onClick={() => removeRow()} fontSize="1.5em" className=' text-zinc-600 hover:text-rose-600 offPrint label-content' /></span></p> 
+                  <p className='text-zinc-900 font-bold text-sm label-content flex flex-row' contentEditable="true">Company Name <span> <TiDelete onClick={() => removeRow()} fontSize="1.5em" className='deletebtn  text-zinc-600 hover:text-rose-600 offPrint label-content' /></span></p> 
                   <p className='text-zinc-700 font-light text-sm label-content' contentEditable="true">Role</p>
                   <p className='text-zinc-700 font-light text-sm label-content' contentEditable="true">Month Year - Present</p>
                 </div>
