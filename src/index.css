@@ -89,6 +89,11 @@ input {
   .quill .ql-editor {
     padding: 0 !important;
   }
+
+  * {
+        -webkit-print-color-adjust: exact !important; /*Chrome, Safari */
+        color-adjust: exact !important;  /*Firefox*/
+    }
 }
 
 @variants responsive {
