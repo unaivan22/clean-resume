@@ -26,7 +26,7 @@ export default function AllTemplates() {
               {({ selected }) => (
                 <button
                   className={
-                    selected ? 'bg-amber-100 font-bold px-6 py-2 rounded-full text-amber-800 xl:text-lg lg:text-lg md:text-lg sm:text-sm xs:text-sm focus:outline-none focus:ring focus:ring-amber-200' : 'px-6 py-2 text-gray-500 text-lg xl:text-lg lg:text-lg md:text-lg sm:text-sm xs:text-sm'
+                    selected ? 'bg-emerald-100 font-bold px-6 py-2 rounded-full text-emerald-800 xl:text-lg lg:text-lg md:text-lg sm:text-sm xs:text-sm focus:outline-none focus:ring focus:ring-emerald-200' : 'px-6 py-2 text-gray-500 text-lg xl:text-lg lg:text-lg md:text-lg sm:text-sm xs:text-sm'
                   }
                 >
                   All Templates
@@ -38,7 +38,7 @@ export default function AllTemplates() {
               {({ selected }) => (
                 <button
                   className={
-                    selected ? 'bg-amber-100 font-bold px-6 py-2 rounded-full text-amber-800 xl:text-lg lg:text-lg md:text-lg sm:text-sm xs:text-sm focus:outline-none focus:ring focus:ring-amber-200' : 'px-6 py-2 text-gray-500 text-lg xl:text-lg lg:text-lg md:text-lg sm:text-sm xs:text-sm'
+                    selected ? 'bg-emerald-100 font-bold px-6 py-2 rounded-full text-emerald-800 xl:text-lg lg:text-lg md:text-lg sm:text-sm xs:text-sm focus:outline-none focus:ring focus:ring-emerald-200' : 'px-6 py-2 text-gray-500 text-lg xl:text-lg lg:text-lg md:text-lg sm:text-sm xs:text-sm'
                   }
                 >
                   Portrait
@@ -50,7 +50,7 @@ export default function AllTemplates() {
               {({ selected }) => (
                 <button
                   className={
-                    selected ? 'bg-amber-100 font-bold px-6 py-2 rounded-full text-amber-800 xl:text-lg lg:text-lg md:text-lg sm:text-sm xs:text-sm focus:outline-none focus:ring focus:ring-amber-200' : 'px-6 py-2 text-gray-500 text-lg xl:text-lg lg:text-lg md:text-lg sm:text-sm xs:text-sm'
+                    selected ? 'bg-emerald-100 font-bold px-6 py-2 rounded-full text-emerald-800 xl:text-lg lg:text-lg md:text-lg sm:text-sm xs:text-sm focus:outline-none focus:ring focus:ring-emerald-200' : 'px-6 py-2 text-gray-500 text-lg xl:text-lg lg:text-lg md:text-lg sm:text-sm xs:text-sm'
                   }
                 >
                   Landscape
