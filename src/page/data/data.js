@@ -82,6 +82,13 @@ export const template = [{
     link: '/v12',
     tags: 'portrait',
     type: 'resume'
+  },{
+    id: 13,
+    title: 'Clean',
+    image: '/extends/media/ResumeA4-13.webp',
+    link: '/v13',
+    tags: 'portrait',
+    type: 'resume'
   }
 ];
   
