@@ -11,7 +11,7 @@ import AnimatedPage from './utils/AnimatedPage'
 export default function AllTemplates() {
   return (
     <AnimatedPage>
-      <div className="grid place-items-center bg-white pt-32 pb-52 min-h-screen">
+      <div className="grid place-items-center bg-gray-50 pt-32 pb-52 min-h-screen">
         <div className='text-white grid grid-cols-1 text-center sm:px-4 xs:px-4'>
           <h1 className='font-bold xl:text-6xl lg:text-6xl md:text-6xl sm:text-4xl xs:text-4xl mx-auto leading-snug text-zinc-900'>ATS-Friendly templates that speed up <br className='2xl:block xl:block md:block sm:hidden xs:hidden' /> creating your resume</h1>
           <div className='grid xl:grid-cols-1 lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1 xs:grid-cols-1 gap-x-4 gap-y-4  text-center mx-auto mt-12 mb-12'>

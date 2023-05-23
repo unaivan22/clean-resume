@@ -7,8 +7,8 @@ import AnimatedPage from './utils/AnimatedPage'
 export default function Home() {
   return (
     <AnimatedPage>
-      <div className='bg-white'>
-        <div className="grid place-items-center bg-white 2xl:pt-32 xl:pt-32 md:pt-32 sm:pt-12 xs:pt-12">
+      <div className='bg-gray-50'>
+        <div className="grid place-items-center bg-gray-50 2xl:pt-32 xl:pt-32 md:pt-32 sm:pt-12 xs:pt-12">
           <div className='text-white grid grid-cols-1 text-center sm:px-4 xs:px-4'>
             <h1 className='font-bold xl:text-6xl lg:text-6xl md:text-6xl sm:text-4xl xs:text-4xl mx-auto leading-snug text-zinc-900 greetingText'>Speed up build of your <br className='2xl:block xl:block md:block sm:hidden xs:hidden' /> ATS-Friendly template resume</h1>
             <div className='grid xl:grid-cols-1 lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1 xs:grid-cols-1 gap-x-4 gap-y-4  text-center mx-auto mt-12 xl:mb-32 lg:mb-32 md:mb-32 sm:mb-12 xs:mb-12'>
@@ -17,7 +17,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <section className='container mx-auto grid grid-cols-1 2xl:block xl:block md:block sm:hidden xs:hidden'>
+        <section className='container mx-auto grid grid-cols-1 2xl:block xl:block md:block sm:hidden xs:hidden bg-gray-50'>
             <div className='flex gap-6'>
               <a href='/v1' className='bg-white p-2 rounded-2xl hover:scale-110 transition ease-in-out delay-150 text-center border border-zinc-200'>
                 <img className='object-fit ' src='extends/media/ResumeA4-1.webp' />
