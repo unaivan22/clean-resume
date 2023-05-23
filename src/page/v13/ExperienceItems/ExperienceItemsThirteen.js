@@ -18,7 +18,7 @@ export default function ExperienceItemsThirteen() {
 
   return (
     <div className='grid grid-cols-1'>
-      <div className='grid grid-cols-1 mt-4 mb-4 ml-8'>
+      <div className='grid grid-cols-1 mt-4 mb-4'>
           {itemChild?.map((currentItem, index) => {
               return (
                 <ul class="list-disc" key={currentItem} id={`childID-${index}`}>
@@ -27,7 +27,7 @@ export default function ExperienceItemsThirteen() {
                 </ul>
               )
           } )}
-          <button onClick={() => addNewRowChild()} className="bg-zinc-800 w-fit mt-4 hover:bg-zinc-900 text-white font-normal text-sm py-2 px-4 rounded-xl offPrint label-content">Add Description</button>
+          <button onClick={() => addNewRowChild()} className="bg-zinc-200 text-zinc-700 w-fit mt-4 hover:bg-zinc-900 hover:text-white font-normal text-sm py-2 px-4 rounded-xl offPrint label-content">Add Description</button>
       </div>
     </div>
   )

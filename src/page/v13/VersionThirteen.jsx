@@ -1,6 +1,7 @@
 import React from 'react'
 import HeadThirteen from './HeadThirteen'
 import ExperienceThirteen from './ExperienceThirteen'
+import EducationThirteen from './EducationThirteen'
 
 import FloatBtn from '../utils/FloatBtn'
 import BackArrow from '../utils/BackArrow'
@@ -23,7 +24,18 @@ export default function VersionThirteen() {
       <BackArrow />
       <MetaResume />
       <HeadThirteen />
-      <ExperienceThirteen />
+      <div className='grid grid-cols-8'>
+        <div className='col-span-2'></div>
+        <div className='col-span-6'>
+          <ExperienceThirteen />
+        </div>
+      </div>
+      <div className='grid grid-cols-8'>
+        <div className='col-span-2'></div>
+        <div className='col-span-6'>
+          <EducationThirteen />
+        </div>
+      </div>
       <FloatBtn />
       <Tools />
       <Toast />
