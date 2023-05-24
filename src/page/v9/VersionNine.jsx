@@ -22,7 +22,7 @@ export default function VersionNine() {
   }  
 
   return (
-    <div id='target' className='V9 mx-auto padding-20mm h-screen'>
+    <div id='target' className='V9 mx-auto padding-20mm'>
       {pagesize()}
       <BackArrow />
       <MetaResume />

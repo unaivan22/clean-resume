@@ -19,7 +19,7 @@ export default function VersionThirteen() {
   }  
 
   return (
-    <div id='target' className='V10 mx-auto padding-15mm h-screen'>
+    <div id='target' className='V10 mx-auto padding-15mm'>
       {pagesize()}
       <BackArrow />
       <MetaResume />

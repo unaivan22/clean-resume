@@ -21,7 +21,7 @@ export default function VersionThree() {
   }  
 
   return (
-    <div id='target' className='V3 mx-auto padding-10mm h-screen'>
+    <div id='target' className='V3 mx-auto padding-10mm'>
       {pagesize()}
       <BackArrow />
       <MetaResume />

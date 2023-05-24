@@ -94,6 +94,13 @@ input {
         -webkit-print-color-adjust: exact !important; /*Chrome, Safari */
         color-adjust: exact !important;  /*Firefox*/
     }
+  
+  @page {
+    size: auto; 
+    /* margin-top: 5mm ;  */
+    /* padding-bottom: 15mm !important ;  */
+    margin: 7mm 0 7mm 0; 
+  }
 }
 
 @variants responsive {

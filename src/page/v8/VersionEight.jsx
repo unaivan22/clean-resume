@@ -22,7 +22,7 @@ export default function VersionEight() {
   }  
 
   return (
-    <div id='target' className='V2 mx-auto padding-10mm h-screen'>
+    <div id='target' className='V2 mx-auto padding-10mm'>
       {pagesize()}
       <BackArrow />
       <MetaResume />

@@ -17,6 +17,8 @@ import VersionTwelve from './v12/VersionTwelve'
 import VersionThirteen from './v13/VersionThirteen'
 import AllTemplates from './AllTemplates'
 
+import NotFound from './utils/NotFound'
+
 export default function RouterPage() {
   return (
     <Router>
@@ -36,6 +38,8 @@ export default function RouterPage() {
             <Route path='/v12' element={<VersionTwelve/>} />
             <Route path='/v13' element={<VersionThirteen/>} />
             <Route path='/templates' element={<AllTemplates/>} />
+
+            <Route path='*' element={<NotFound/>} />
 
         </Routes>
      </Router>
